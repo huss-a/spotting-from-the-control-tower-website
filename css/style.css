@@ -21,7 +21,7 @@ a {
 
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quattrocento', sans-serif;
     background-color: rgb(231, 231, 231);
 }
 
@@ -55,21 +55,21 @@ nav .logo {
     z-index: 1;
 }
 
-.nav-links {
+.nav-links, .ab-nav-links {
     display: flex;
 
 }
 
 
 
-.nav-links li {
+.nav-links li, .ab-nav-links li {
     margin-right: 50px;
     font-size: 1.2rem;
     letter-spacing: 2px;
     transition: 0.3s ease-in;
 }
 
-.nav-links li:hover {
+.nav-links li:hover, .ab-nav-links li:hover {
     transition: 0.2s ease-in;
     transform: translateY(-20%);
 }
@@ -221,13 +221,17 @@ nav .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 60px;
+    margin: 0 100px;
     font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 35px;
 }
 
 footer {
+    width: 100%;
     overflow: hidden;
-    margin: 50px 0 20px 20px;
+    /* margin: 50px 50px 20px 20px; */
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -244,13 +248,19 @@ footer img {
     background-color: rgb(194, 144, 63);
 }
 
-.burger {display: none;}
+.burger, .ab-burger {display: none;}
 
-.burger div{
+.burger div, .ab-burger div{
     height: 2px;
     width: 25px;
     background-color: teal;
     margin: 5px 8px;
+}
+
+.push-down {
+    position: relative;
+    top: 100px;
+    z-index: -1;
 }
 
 @media screen and (max-width: 800px) {
@@ -260,6 +270,14 @@ footer img {
 
     p {
         font-size: 1.2rem;
+    }
+
+    .text-content {
+        margin: 0 20px;
+    }
+
+    footer {
+        height: 70px;
     }
 }
 
@@ -272,6 +290,11 @@ footer img {
         font-size: 1rem;
         margin: 0 20px;
     }
+
+    footer {
+        height: 50px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -279,22 +302,22 @@ footer img {
         display: none;
     }
 
-    .nav-links li {
+    .nav-links li, .ab-nav-links li {
         margin-right: 20px;
     }
 }
 
 @media screen and (max-width: 900px) {
 
-    .burger{
+    .burger, .ab-burger{
         display: block;
     }
 
-    .burger:hover {
+    .burger:hover, .ab-burger:hover {
         cursor: pointer;
     }
 
-    .nav-links {
+    .nav-links, .ab-nav-links {
         transform: none;
         height: 90vh;
         width: 50%;
@@ -311,10 +334,10 @@ footer img {
         transition: 0.3s ease;
     }
 
-    .nav-links li:hover {
+    .nav-links li:hover, .ab-nav-links li:hover {
         transform: none;
     }
-    .nav-links li {
+    .nav-links li, .ab-nav-links li {
         margin: 30px 50px;
         overflow: auto;
         opacity: 0;
@@ -323,11 +346,12 @@ footer img {
     .main-banner h1 {
         font-size: 4rem;
     }
-    .burger-nav-active {
+    .burger-nav-active, .ab-burger-nav-active {
         transform: translateX(0%);
         transition: 0.3s ease;
     }
 }
+
 
 @keyframes navLinkFade {
     from {
