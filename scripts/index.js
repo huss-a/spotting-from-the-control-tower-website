@@ -22,8 +22,6 @@ const animation =  () => {
         };
     };
 }
-animation();
-
 
 // Toggle nav
 const navSlide = () => {
@@ -44,5 +42,9 @@ const navSlide = () => {
     });
 };
 
+const app = () => {
+    animation();
+    navSlide();
+}
 
-navSlide();
+app();
