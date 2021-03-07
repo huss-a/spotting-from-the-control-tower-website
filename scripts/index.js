@@ -42,9 +42,19 @@ const navSlide = () => {
     });
 };
 
+const loadBlogs = () => {
+    fetch('../testing/data.json')
+    .then(res => res.json())
+    .then(data => /*console.log(data.blogs)*/data.blogs.reverse().forEach(blog => {
+        const blogsHTML = document.querySelector('.blog-grid');
+        blogsHTML.innerHTML += `<a href="${blog.url}" target="_blank"><img src="${blog.imgUrl}" alt="Edition ${blog.id}"></a>`;
+    }));
+}
+
 const app = () => {
     animation();
     navSlide();
+    loadBlogs();
 }
 
 app();

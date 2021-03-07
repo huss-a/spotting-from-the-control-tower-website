@@ -102,6 +102,7 @@ nav .logo {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    z-index: 5;
 } 
 
 .intro-text {
@@ -270,6 +271,32 @@ footer img {
     list-style: square;
 }
 
+.blogs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 25px;
+    align-items: center;
+    justify-items: center;
+    overflow: auto;
+    margin: 0 55px;
+}
+
+.blog-grid img {
+    max-width: 295px;
+    max-height: 295px;
+    border-radius: 7px;
+    object-fit: cover;
+
+}
+
+
 @media screen and (max-width: 800px) {
     .banner {
         height: 200px;
@@ -285,6 +312,15 @@ footer img {
 
     footer {
         height: 70px;
+    }
+
+    .blog-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 20px;
     }
 }
 
