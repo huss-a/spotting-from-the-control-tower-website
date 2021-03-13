@@ -1,58 +1,73 @@
 {
-    "blogsImgs": [
+    "blogs": [
         {
             "id": 1,
-            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/editor/my-post-79.png?1614954667"
+            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/editor/my-post-79.png?1614954667",
+            "url": "https://community.infiniteflight.com/t/spotting-from-the-control-tower/442487"
         },
         {
             "id": 2,
-            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/published/my-post-80.png?1614955212"
+            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/published/my-post-80.png?1614955212",
+            "url": "https://community.infiniteflight.com/t/spotting-from-the-control-tower-edition-2/444230"
         },
         {
             "id": 3,
-            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/published/my-post-81.png?1614955166"
+            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/published/my-post-81.png?1614955166",
+            "url": "https://community.infiniteflight.com/t/spotting-from-the-control-tower-edition-3/448726"
         },
         {
             "id": 4,
-            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/published/p339.png?1614955156"
+            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/published/p339.png?1614955156",
+            "url": "https://community.infiniteflight.com/t/spotting-from-the-control-tower-edition-4/461392"
         },
         {
             "id": 5,
-            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/published/p341.png?1614955140"
+            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/published/p341.png?1614955140",
+            "url": "https://community.infiniteflight.com/t/spotting-from-the-control-tower-edition-5/466016"
         },
         {
             "id": 6,
-            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/p342_orig.png"
+            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/p342_orig.png",
+            "url": "https://community.infiniteflight.com/t/spotting-from-the-control-tower-edition-6/475665"
         },
         {
             "id": 7,
-            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/p343_orig.png"
+            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/p343_orig.png",
+            "url": "https://community.infiniteflight.com/t/spotting-from-the-control-tower-edition-7/478377"
         },
         {
             "id": 8,
-            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/p344_orig.png"
+            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/p344_orig.png",
+            "url": "https://community.infiniteflight.com/t/spotting-from-the-control-tower-edition-8/484913"
         },
         {
             "id": 9,
-            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/p349_orig.png"
+            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/p349_orig.png",
+            "url": "https://community.infiniteflight.com/t/spotting-from-the-control-tower-edition-9/497716"
         },{
             "id": 10,
-            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/p352_orig.png"
+            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/p352_orig.png",
+            "url": "https://community.infiniteflight.com/t/spotting-from-the-control-tower-edition-10/507056"
         },{
             "id": 11,
-            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/p362_orig.png"
+            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/p362_orig.png",
+            "url": "https://community.infiniteflight.com/t/spotting-from-the-control-tower-meet-tyler-his-schedule/512689"
         },{
             "id": 12,
-            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/my-post-45_orig.png"
+            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/my-post-45_orig.png",
+            "url": "https://community.infiniteflight.com/t/spotting-from-the-control-tower-congratulations-sups/527105/29"
         },{
             "id": 13,
-            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/63a6e8ce-620d-4779-bfa4-931696d8f651_orig.png"
+            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/63a6e8ce-620d-4779-bfa4-931696d8f651_orig.png",
+            "url": "https://community.infiniteflight.com/t/spotting-from-then-control-tower-congratulations-big-news/532057/7"
         },{
             "id": 14,
-            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/my-post-2021-03-05t142458-648_orig.png"
+            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/my-post-2021-03-05t142458-648_orig.png",
+            "url": "https://community.infiniteflight.com/t/spotting-from-the-control-tower-misha-s-friday-night-flight/537239"
         },{
             "id": 15,
-            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/my-post-2021-03-05t143513-862_orig.png"
+            "imgUrl": "https://spottingfromthecontroltower.weebly.com/uploads/1/2/3/7/123729770/my-post-2021-03-05t143513-862_orig.png",
+            "url": "https://community.infiniteflight.com/t/spotting-from-then-control-tower-panthers-success/541647"
         }
     ]
 }
